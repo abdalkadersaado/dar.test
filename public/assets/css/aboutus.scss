@@ -1,0 +1,288 @@
+.aboutus {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ser-title {
+    
+        font-size: 2.4vw;
+        font-weight: 600;
+        /* line-height: 36px; */
+        margin: 0;
+    
+}
+.dar{
+    font-size: 2.4vw;
+        font-weight: 600;
+         line-height: 71px; 
+        margin: 0;
+        color: #ba0f0f;
+        margin-top: 25px;
+        
+}
+.containn{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    color: rgba(51, 51, 51, 0.85);
+    width: 85%;
+    text-align: justify;
+}
+.v-m {
+    width: 34%;
+    height: fit-content;
+    min-width: 353px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ba0f0f2b;
+    padding: 20px 19px;
+    border-radius: 18px;
+    background: linear-gradient(212.88deg, rgba(156, 25, 22, 0.18) 19.03%, rgba(251, 251, 251, 0) 152.21%);
+    border-radius: 50%;
+    /* background-image: url(/assets/images/13.png); */
+    /* background-size: 74vw; */
+    /* background-repeat: no-repeat; */
+    /* background-position-y: center; */
+    /* background-position-x: center; */
+    /* height: 322px; */
+    /* display: flex; */
+    /* -webkit-box-pack: center; */
+    // -ms-flex-pack: center;
+    /* justify-content: center; */
+    padding: 44px;
+}
+.v-m-con {
+    display: flex;
+    justify-content: space-evenly;
+    // gap: 65px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.v-mtitle {
+    font-size: 1.7vw;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #ffffff;
+    background: #ba0f0f;
+    line-height: 4vw;
+    padding: 10px 22px 0px 22px;
+    border-radius: 33px;
+    margin: 0;
+    margin-bottom: 17px;
+}
+.vim{
+    width: 37%;
+}
+.v-mcon {
+    font-size: 1.5vw;
+    width: 88%;
+    text-align: center;
+    line-height: 1.9vw;
+}
+.founder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin-top: 45px;
+}
+.hu{
+    // margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 44px;
+}
+.txt-fon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.img-f{
+    height: 100%;
+}
+p.tit-f {
+    font-size: 3vw;
+    color: #ba0f0f;
+    font-weight: 600;
+}
+p.name-f {
+    font-size: 2.5vw;
+    margin: 0;
+    white-space: nowrap;
+}
+p.con-f {
+    margin: auto;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 1.3vw;
+}
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.slim{
+    font-weight: 300;
+}
+.sika{
+    font-size: 1.4vw;
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 400;
+    color: #ba0f0f;
+    font-size: 1.4vw;
+}
+.team-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: wrap;
+    width: 95%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    gap: 10px 37px;
+}
+.teami {
+    width: 45%;
+}
+@media screen and (max-width:650px) {
+    .dar {
+        font-size: 3.4vw;
+        line-height: 4vw;
+
+    }
+    .ser-title {
+        font-size: 3.4vw;
+    }
+    .containn {
+        font-size: 2vw;
+        line-height: 2.5vw;
+        width: 90%;
+        margin-top: 9px;
+    }
+    p.tit-f {
+        font-size: 4vw;
+        margin-top: 50px;
+    }
+    p.name-f {
+        font-size: 3vw;
+    }
+    p.con-f {
+        margin: auto;
+        margin-top: 19px;
+        text-align: justify;
+        font-size: 2vw;
+        /* width: 103%; */
+        line-height: 2.2vw;
+    }
+    .txt-fon{
+        padding: 10px;
+    }
+    .team-grid {
+        margin-top: 15px;
+    }
+    .sika {
+        font-size: 1.4vw;
+        text-align: center;
+        margin-top: 8px;
+        font-weight: 400;
+        color: #ba0f0f;
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+    .teami {
+        width: 96%;
+    }
+}
+@media screen and (max-width:450px) {
+    .containn {
+        font-size: 3vw;
+        line-height: 3.5vw;
+        width: 96%;
+        margin-top: 9px;
+    }
+    .founder {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 90%;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin: auto;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 45px;
+    }
+    .img-f {
+        height: 100%;
+        width: 56%;
+    }
+    p.tit-f {
+        font-size: 5vw;
+        margin-top: 16px;
+    }
+    p.name-f {
+        font-size: 4vw;
+    }
+    p.con-f {
+        margin: auto;
+        margin-top: 16px;
+        text-align: justify;
+        font-size: 3vw;
+        /* width: 103%; */
+        line-height: 3.2vw;
+    }
+    .fi{
+        margin-top: 12px;
+    }
+    .sika {
+        font-size: 1.4vw;
+        text-align: center;
+        margin-top: 8px;
+        font-weight: 400;
+        color: #ba0f0f;
+        font-size: 3vw;
+        line-height: 4vw;
+        margin-bottom: 5px;
+    }
+}

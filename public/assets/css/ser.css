@@ -1,0 +1,106 @@
+.services-con {
+    width: 90%;
+    background: white;
+    margin: auto;
+    border-radius: 18px;
+    height: fit-content;
+    padding: 5vw;
+}
+.redi {
+    width: 100px;
+    border: 3px solid #ba0f0f;
+    z-index: 99;
+    opacity: 1;
+    border-radius: 7px;
+    margin: 1px 0;
+}
+.ser-title p{
+    font-size: 2.4vw;
+    font-weight: 600;
+    /* line-height: 36px;  */
+    margin: 0;
+}
+.ser-sup p{
+    font-size: 1.8vw;
+    font-weight: 600;
+    /* line-height: 22px; */
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+.contr{
+    font-size: 1.4vw;
+    font-weight: 400;
+    /* line-height: 22px; */
+    margin: 20px;
+    margin-top: 7px;
+}
+li{
+    font-size: 1.5vw;
+}
+span.bold {
+    font-weight: bold;
+}
+.maradd{
+    margin-top: 20px;
+}
+.redd{
+    color:#ba0f0f;
+}
+@media screen and (min-width:1300px) {
+    
+    .ser-title p{
+        font-size: 2vw;
+    }
+    .ser-sup p{
+        font-size: 1.2vw;
+    }
+    .contr{
+        font-size: 1.2vw;
+    }
+    li{
+        font-size: 1.2vwb;
+    }
+}
+@media screen and (max-width:600px) {
+    
+    .ser-title p{
+        font-size: 16px;
+    }
+    .ser-sup p{
+        font-size: 14px;
+    }
+    .contr{
+        font-size: 12px;
+    }
+    li{
+        font-size: 12px;
+    }
+}
+.col-megamenu li{
+    padding: 0!important;
+    line-height: 14px;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: black;
+
+}
+.tt1{
+    background-image: url(/assets/images/qq\ 208.png)!important;
+}
+.tt2{
+    background-image: url(/assets/images/qq\ 205.png)!important;
+}
+.tt3{
+    background-image: url(/assets/images/qq\ 20.png)!important;
+}
+.tt4{
+    background-image: url(/assets/images/qq\ 2.png)!important;
+}
+.tt5{
+    background-image: url(/assets/images/qq\ 206.png)!important;
+}
+.tt6{
+    background-image: url(/assets/images/qq\ 20\ 2.png)!important;
+}
